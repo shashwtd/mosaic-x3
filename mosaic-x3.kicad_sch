@@ -424,202 +424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Barrel_Jack"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -4284,6 +4088,17 @@
 		)
 		(uuid "a7821e84-00c6-4c3f-aa4a-99d05d6946dd")
 	)
+	(text "use a panel mount \nbarrel jack on ts"
+		(exclude_from_sim no)
+		(at 167.894 37.592 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "e6235eb7-a859-4afa-b5e2-3d97518ab385")
+	)
 	(text "June 2nd, 2026"
 		(exclude_from_sim no)
 		(at 214.376 193.548 0)
@@ -4486,12 +4301,6 @@
 		(uuid "52c10857-e1f5-4493-a035-940244d83951")
 	)
 	(junction
-		(at 180.34 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aab1325-6d3c-40e6-9d59-67b134ecf7e9")
-	)
-	(junction
 		(at 74.93 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4532,6 +4341,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6556eaa-b9a5-4e3c-bf86-6460751e482b")
+	)
+	(junction
+		(at 189.23 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38b8cdc-6c59-4233-b576-3788838538bd")
 	)
 	(no_connect
 		(at 68.58 45.72)
@@ -4719,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 36.83) (xy 185.42 36.83)
+			(xy 189.23 36.83) (xy 194.31 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4879,16 +4694,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 36.83) (xy 180.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e4fc38-210a-4d22-9336-9e751fd57bf8")
-	)
-	(wire
-		(pts
 			(xy 116.84 58.42) (xy 123.19 58.42)
 		)
 		(stroke
@@ -4936,6 +4741,16 @@
 			(type default)
 		)
 		(uuid "41480216-db7f-477c-b6ee-9be30ec74471")
+	)
+	(wire
+		(pts
+			(xy 181.61 34.29) (xy 181.61 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470b973e-4272-4fe7-bac2-ff92664727ed")
 	)
 	(wire
 		(pts
@@ -5019,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 38.1) (xy 180.34 36.83)
+			(xy 189.23 38.1) (xy 189.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5206,6 +5021,16 @@
 			(type default)
 		)
 		(uuid "a57ae7b3-0a05-4b2c-814e-713d4f05a59c")
+	)
+	(wire
+		(pts
+			(xy 175.26 34.29) (xy 181.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bdc335-9134-445c-81b7-ad280ab66233")
 	)
 	(wire
 		(pts
@@ -5446,6 +5271,16 @@
 			(type default)
 		)
 		(uuid "fa2d26ca-e0b1-473d-aa84-34f874ca81bb")
+	)
+	(wire
+		(pts
+			(xy 181.61 36.83) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea4eada-46a6-4804-85a8-048e7abffc7d")
 	)
 	(global_label "USB_DM"
 		(shape input)
@@ -5999,7 +5834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.368 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +5982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "470uF/16V"
 			(at 266.7 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,7 +5993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 263.8552 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6518,6 +6353,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 170.18 34.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f2cf79c-a5a2-403b-89a6-5ea9a28e2c06")
+		(property "Reference" "J1"
+			(at 166.878 25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 166.878 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+			(at 170.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 170.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5984c650-5b32-4cbe-8642-17be854a5fdc")
+		)
+		(pin "1"
+			(uuid "3239bd13-4d47-4cd1-8273-0e7b2173fe96")
+		)
+		(instances
+			(project "mosaic-x3"
+				(path "/bac27948-b0c9-4db6-90c3-59316b62877b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 35.56 123.19 90)
 		(unit 1)
@@ -6550,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.56 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -6708,7 +6622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 138.43 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6903,7 +6817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 181.61 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.08 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -7219,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7335,7 +7249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7416,7 +7330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 181.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7497,7 +7411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.85 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -7657,7 +7571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 182.88 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7740,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 57.15 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8168,7 +8082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 83.82 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8331,86 +8245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 167.64 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fab8afd-4ebc-4465-bff7-d02f2c48134b")
-		(property "Reference" "J1"
-			(at 167.64 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 167.64 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 35.306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 35.306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 167.64 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f444262-bbfe-4989-b6d3-059ea2570a0b")
-		)
-		(pin "2"
-			(uuid "82474605-00eb-437e-9a4d-7206fb9b36ff")
-		)
-		(instances
-			(project "mosaic-x3"
-				(path "/bac27948-b0c9-4db6-90c3-59316b62877b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 139.7 132.08 0)
 		(unit 1)
@@ -8443,7 +8277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +8436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 108.9152 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9356,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 30.48 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9472,7 +9306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.08 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -9709,7 +9543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 181.61 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9790,7 +9624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 75.8952 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9872,7 +9706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 22.86 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +9786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 222.25 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10314,7 +10148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 38.1 0)
+		(at 189.23 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10325,7 +10159,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7cf5335-d4de-4ee2-9aad-674f1547c7c4")
 		(property "Reference" "#PWR02"
-			(at 180.34 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +10170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 43.18 0)
+			(at 189.23 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10346,7 +10180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 38.1 0)
+			(at 189.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +10191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 38.1 0)
+			(at 189.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,7 +10202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 38.1 0)
+			(at 189.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,7 +10257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.6052 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10657,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10855,7 +10689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10905,7 +10739,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 185.42 36.83 270)
+		(at 194.31 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10916,7 +10750,7 @@
 		(fields_autoplaced yes)
 		(uuid "da001d33-9663-4a91-9ff1-50f2e8416cf4")
 		(property "Reference" "#FLG02"
-			(at 187.325 36.83 0)
+			(at 196.215 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,7 +10761,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 189.23 36.8299 90)
+			(at 198.12 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10938,7 +10772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 36.83 0)
+			(at 194.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10949,7 +10783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 36.83 0)
+			(at 194.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10960,7 +10794,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 185.42 36.83 0)
+			(at 194.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +10850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 162.2552 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11097,7 +10931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.1552 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11332,7 +11166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 194.31 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11492,7 +11326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 57.15 133.35 0)
 			(hide yes)
 			(show_name no)
