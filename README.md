@@ -2,6 +2,8 @@
 
 Imagine if github contribution chart came to life as a frame which you could hang on your wall for decor. This is mosaic, you plug it in, connect your github account and tadaaa~ you now have a frame that mimicks your github contribution history graph.
 
+![alt text](image.png)
+
 Features:
 - 182 blocks to display last 6 months worth of stats
 - wifi, so it's easier to connect your github account

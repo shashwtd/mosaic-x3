@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mehanical/pcb/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -648,7 +648,7 @@
         "uuid": "bac27948-b0c9-4db6-90c3-59316b62877b"
       }
     ],
-    "used_designators": "R6-9,J1,Q1-2,U4,#PWR38,D2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
