@@ -1,0 +1,118 @@
+** Drc report for mosaic-x3.kicad_pcb **
+** Created on 2026-07-20T10:18:26 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 23 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.0000 mm, 173.3000 mm): NPTH pad of REF**
+    @(69.8000 mm, 32.6000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(104.4000 mm, 101.5000 mm): NPTH pad of REF**
+    @(69.8000 mm, 32.6000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.0000 mm, 173.3000 mm): NPTH pad of REF**
+    @(69.8000 mm, 32.6000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(104.4000 mm, 101.5000 mm): NPTH pad of REF**
+    @(69.8000 mm, 32.6000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[clearance]: Clearance violation (barcode visual separation default clearance 1.0000 mm; actual 0.0000 mm)
+    Rule: barcode visual separation default; error
+    @(105.0000 mm, 173.3000 mm): NPTH pad of REF**
+    @(100.6588 mm, 168.8018 mm): Barcode 'https://tinyurl.com/msx35' on B.Silkscreen
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(92.3000 mm, 127.0000 mm): Track [+5V] on F.Cu, length 0.0243 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3900 mm, 48.6750 mm): Segment on Edge.Cuts
+    @(87.4500 mm, 48.7250 mm): Rectangle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3900 mm, 48.6750 mm): Segment on Edge.Cuts
+    @(87.4507 mm, 176.2000 mm): Rectangle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3900 mm, 48.6750 mm): Segment on Edge.Cuts
+    @(107.8743 mm, 48.7250 mm): Rectangle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3900 mm, 48.6750 mm): Segment on Edge.Cuts
+    @(108.4250 mm, 135.0900 mm): Reference field of Q1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(87.3900 mm, 176.6750 mm): Segment on Edge.Cuts
+    @(87.4000 mm, 116.1000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(87.3900 mm, 176.6750 mm): Segment on Edge.Cuts
+    @(87.4000 mm, 122.4000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(87.3900 mm, 176.6750 mm): Segment on Edge.Cuts
+    @(87.7900 mm, 80.7250 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(87.3900 mm, 176.6750 mm): Segment on Edge.Cuts
+    @(87.7900 mm, 90.1250 mm): Segment of J2 on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(100.9500 mm, 161.7000 mm): PCB text 'made by - @shashwat' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4000 mm, 97.8500 mm): Reference field of REF**
+    @(103.1900 mm, 96.8750 mm): Pad 1 [GND] of SW2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4000 mm, 97.8500 mm): Reference field of REF**
+    @(106.8900 mm, 96.8750 mm): Pad 2 [EN] of SW2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.3000 mm, 127.2800 mm): Reference field of F1
+    @(104.1000 mm, 128.5500 mm): Pad 2 [Net-(D1-K)] of Q1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.4507 mm, 48.7250 mm): Rectangle on B.Silkscreen
+    @(89.7000 mm, 124.5000 mm): PTH pad [<no net>] of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.4507 mm, 48.7250 mm): Rectangle on B.Silkscreen
+    @(89.7000 mm, 116.3000 mm): PTH pad [<no net>] of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.4507 mm, 48.7250 mm): Rectangle on B.Silkscreen
+    @(88.7400 mm, 81.1050 mm): PTH pad SH [GND] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.4507 mm, 48.7250 mm): Rectangle on B.Silkscreen
+    @(88.7400 mm, 89.7450 mm): PTH pad SH [GND] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(100.6588 mm, 168.8018 mm): Barcode 'https://tinyurl.com/msx35' on B.Silkscreen
+    @(105.0000 mm, 173.3000 mm): NPTH pad of REF**
+
+** Found 0 unconnected pads **
+
+** Found 3 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(104.4000 mm, 101.5000 mm): Footprint REF**
+    @(105.0000 mm, 173.3000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(105.0000 mm, 173.3000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(104.4000 mm, 101.5000 mm): Footprint REF**
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

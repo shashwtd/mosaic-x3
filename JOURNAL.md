@@ -24,7 +24,7 @@ i decided to use opal white polyacrylic for the diffusing layer and all the stuf
 another important thing is to make sure the power delivery works well. otherwise this could go very very wrong.. and nothing would work properly
 
 i dont have any image for now, but i've started work on schematics and this is what i have
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjU2MjcsInB1ciI6ImJsb2JfaWQifX0=--8823cfb8a9b5629f5de03ff204a42d72c99f2aea/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjU2MjcsInB1ciI6ImJsb2JfaWQifX0=--8823cfb8a9b5629f5de03ff204a42d72c99f2aea/image.png)
 
 
 ### Recording Links
@@ -49,7 +49,7 @@ next part is assigning footprints, doing the PCB design, doing the CAD work and 
 
 this is how the schematic sheet looks like:
   
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY0MzYsInB1ciI6ImJsb2JfaWQifX0=--8e286eaa2d30c4e60d055fab670efbc076474df5/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY0MzYsInB1ciI6ImJsb2JfaWQifX0=--8e286eaa2d30c4e60d055fab670efbc076474df5/image.png)
 
 YUM! 
 
@@ -80,7 +80,7 @@ i need to reconsider power options and eventually need to find something good wh
 
 this is what the pcb designs are looking like rn
 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NjgsInB1ciI6ImJsb2JfaWQifX0=--41f1452bc5fcb08e5558dbd24c8ebae87f63bdc5/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NjgsInB1ciI6ImJsb2JfaWQifX0=--41f1452bc5fcb08e5558dbd24c8ebae87f63bdc5/image.png)
 
 
 ### Recording Links
@@ -114,7 +114,7 @@ YAHOOO!
 
 mandatory attached image:
 [the pcb getting designed to go on very left of the frame]
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjczNjcsInB1ciI6ImJsb2JfaWQifX0=--b3002372e4244609f1310512c72bf018753c2275/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjczNjcsInB1ciI6ImJsb2JfaWQifX0=--b3002372e4244609f1310512c72bf018753c2275/image.png)
 
 
 ### Recording Links
@@ -129,7 +129,7 @@ mandatory attached image:
 
 ### Content
 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NzQsInB1ciI6ImJsb2JfaWQifX0=--345f28e070dc13d78ca88960176c8fd909d7b7a2/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NzQsInB1ciI6ImJsb2JfaWQifX0=--345f28e070dc13d78ca88960176c8fd909d7b7a2/image.png)
 
 hey so i updated the power route to include a MOSFET so the switch works better and i finalized the design for pcb and next steps are just placing everything and doing the routing. im expecting to be over with this after my next journal an we can start worrying about LED parts & CAD design
 
@@ -152,8 +152,8 @@ and routing.
 im too tired + need to celebrate kartikey's birthday (my roommate) in 10 mins so gonna log off for today. byebye
 
 update pictures: 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1NTEsInB1ciI6ImJsb2JfaWQifX0=--c67426286057382674f2df7f9273f0f1497b396c/image.png)
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1NTMsInB1ciI6ImJsb2JfaWQifX0=--59cb30cd7b477733d0e8b2cb990a6a5a76587cd3/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1NTEsInB1ciI6ImJsb2JfaWQifX0=--c67426286057382674f2df7f9273f0f1497b396c/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1NTMsInB1ciI6ImJsb2JfaWQifX0=--59cb30cd7b477733d0e8b2cb990a6a5a76587cd3/image.png)
 
 
 ### Recording Links
@@ -172,7 +172,7 @@ i fixed some placement issues with capacitors & resistors. once that was done, i
 BUT WAIT!! i saw a bunch of DRC errors so im prolly gonna fix that first before i move forward with anything :sob:
 
 pcb w/ routing:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAxNjgsInB1ciI6ImJsb2JfaWQifX0=--759b1dcf3e6d8185b310c15932c70bfc772a3068/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAxNjgsInB1ciI6ImJsb2JfaWQifX0=--759b1dcf3e6d8185b310c15932c70bfc772a3068/image.png)
 
 
 ### Recording Links
@@ -202,8 +202,8 @@ whooo!
 (i tried adding an image on the back but that did not work very well)
 
 anyways, here's how the final product looks:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAzMDUsInB1ciI6ImJsb2JfaWQifX0=--4a2ad8967cb2b8aa367fd8c6b109db916faf1b81/image.png)
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAzMDYsInB1ciI6ImJsb2JfaWQifX0=--8ad2e4be079d7c34f0f5774d2199f4d9979a2000/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAzMDUsInB1ciI6ImJsb2JfaWQifX0=--4a2ad8967cb2b8aa367fd8c6b109db916faf1b81/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAzMDYsInB1ciI6ImJsb2JfaWQifX0=--8ad2e4be079d7c34f0f5774d2199f4d9979a2000/image.png)
 
 
 ### Recording Links
@@ -223,7 +223,7 @@ Okay, I was done with all the PCB work and it was time to start with CAD. howeve
 I even made a base for project with the current dimensions. I need to figure out how I can make a proper looking board now. Another thing I need to research is how will I get the diffusion effect working on the front of the board. 
 
 anyways, here is how the CAD looks:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0MTgsInB1ciI6ImJsb2JfaWQifX0=--61911ead920967f7dd32c4d13d85466655a5108b/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0MTgsInB1ciI6ImJsb2JfaWQifX0=--61911ead920967f7dd32c4d13d85466655a5108b/image.png)
 
 
 planning to do more in depth work tomorrow, until then byebye
@@ -244,7 +244,7 @@ planning to do more in depth work tomorrow, until then byebye
 Okay okay okay I am starting to understand how CAD works. I spent quite a lot of time trying to get the alignment and dimensions perfect but it's all looking neat now. I know more fusion shortcuts than ever before.. at one point i was also considering going for a panel mount switch but it felt too much hassle so i decided that i will make the wall around the switch thinner instead. that will surely help.
 
 And this is the CAD case I created:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE2MzUsInB1ciI6ImJsb2JfaWQifX0=--6c7702400d2a43d592c203f4d22e4b6c2600bbe2/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE2MzUsInB1ciI6ImJsb2JfaWQifX0=--6c7702400d2a43d592c203f4d22e4b6c2600bbe2/image.png)
 
 It's just an open container for now. but need to do a lot of changes to it
 
@@ -263,7 +263,7 @@ so what happened is, it's really hard to find a big 3d printer here in Inda. I'm
 
 i will make a bigger board next time maybe
 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI0MzgsInB1ciI6ImJsb2JfaWQifX0=--0db6d698a001c3b43f46f558bb38d9548265bd51/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI0MzgsInB1ciI6ImJsb2JfaWQifX0=--0db6d698a001c3b43f46f558bb38d9548265bd51/image.png)
 _the new smaller board dimensions_
 
 ### Recording Links
@@ -280,14 +280,14 @@ _the new smaller board dimensions_
 i did the fallout event this weekend and 4 of us gathered to work on our projects.
 
 what I did was, I finally made a cad case for my thing. right now, the state it is in right now is like a good first iteration of what i wanna have as a final product. 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMTEsInB1ciI6ImJsb2JfaWQifX0=--bbd59a4e627b51e93e1c9aac01a291ef4d95451a/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMTEsInB1ciI6ImJsb2JfaWQifX0=--bbd59a4e627b51e93e1c9aac01a291ef4d95451a/image.png)
 
 
 
 it's still not ready tho, here are the things we need to do:
 
 - first of all, fix the positioning of the pcb and output ports so we can do wiring and not have it blocked by a wall right after. look at this image:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMTAsInB1ciI6ImJsb2JfaWQifX0=--a81217a2f69329a91a9195e8da166807f194d226/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMTAsInB1ciI6ImJsb2JfaWQifX0=--a81217a2f69329a91a9195e8da166807f194d226/image.png)
 
 - next, we need to polish the area on sides to thin it out so the switches are easy to toggle and plugging usb c and the panel switch actually works
 
@@ -312,8 +312,8 @@ I decided to take some time out and did a lot of changes in the PCB components p
 - the usb c also sticks out because the CAD case might be thick
 - MAIN THING, the connectors now have better placement and there's some spacing for the wires
 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MTgsInB1ciI6ImJsb2JfaWQifX0=--4753bfb7ed86b9973c59218c2997f40699fcb8d1/image.png)
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MjEsInB1ciI6ImJsb2JfaWQifX0=--65417285436dd5bbe461d9025517bef6f32da456/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MTgsInB1ciI6ImJsb2JfaWQifX0=--4753bfb7ed86b9973c59218c2997f40699fcb8d1/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MjEsInB1ciI6ImJsb2JfaWQifX0=--65417285436dd5bbe461d9025517bef6f32da456/image.png)
 
 
 ### Recording Links
@@ -333,8 +333,8 @@ I updated the PCB component placements, fixed wiring, updated footprints, cleane
 
 other than that, i updated my CAD to add a pcb mount so it doesn't more + made some cutouts for the switch and USB-C port. im learning a lot
 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQxNzEsInB1ciI6ImJsb2JfaWQifX0=--f8c497b660b7a7767ae28af3c407e2d80b6b7735/image.png)
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQxNzIsInB1ciI6ImJsb2JfaWQifX0=--7d5dc47dd39d294ca9a3bb77af29f7b15405e7b5/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQxNzEsInB1ciI6ImJsb2JfaWQifX0=--f8c497b660b7a7767ae28af3c407e2d80b6b7735/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQxNzIsInB1ciI6ImJsb2JfaWQifX0=--7d5dc47dd39d294ca9a3bb77af29f7b15405e7b5/image.png)
 
 
 ### Recording Links
@@ -360,7 +360,7 @@ this was one long timelapse. I did the following things:
 - usb c is not an option because that's too much work + I would need to give power in a very controlled manner...
 
 this is how the design is looking:
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ3OTksInB1ciI6ImJsb2JfaWQifX0=--7d7692a901a8d85d5b571bb220b1970235a19f8c/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ3OTksInB1ciI6ImJsb2JfaWQifX0=--7d7692a901a8d85d5b571bb220b1970235a19f8c/image.png)
 
 ### Recording Links
 
@@ -374,8 +374,8 @@ this is how the design is looking:
 ### Content
 
 did some more cad restructuring and added screw mounts to make sure my pcb does not lift itself. i only added 2 screws and im gonna assume thats enough and fine because i already have pcb side mount and top bottom mount in place
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzU3ODEsInB1ciI6ImJsb2JfaWQifX0=--a092e7242285ab8cc78d8555bcae7f720957715b/image.png)
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzU3ODIsInB1ciI6ImJsb2JfaWQifX0=--13d5e2a0e2dd32999263c2439137f9f087bd83f5/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzU3ODEsInB1ciI6ImJsb2JfaWQifX0=--a092e7242285ab8cc78d8555bcae7f720957715b/image.png)
+![image.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzU3ODIsInB1ciI6ImJsb2JfaWQifX0=--13d5e2a0e2dd32999263c2439137f9f087bd83f5/image.png)
 
 
 ### Recording Links

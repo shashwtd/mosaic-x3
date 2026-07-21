@@ -4906,7 +4906,7 @@
 		)
 		(uuid "4605b8d1-4c2e-4755-aa6c-71bf2eb4aa87")
 	)
-	(text "we will connect panel \nmount barrel jack to \nthis connector for power"
+	(text "connect a regulated 5V \nDC supply to this \nterminal for power"
 		(exclude_from_sim no)
 		(at 159.004 37.338 0)
 		(effects
@@ -4918,7 +4918,7 @@
 		)
 		(uuid "53af72da-8f16-42cd-a56d-ffca621335e2")
 	)
-	(text "Mosaic-X3 schematics (v1):\n26 weeks (6mo) = 182 LEDs\nlights: 5V WS2812B 60/m strip\nFirmware NUM_LEDS = 182"
+	(text "Mosaic-X3 schematics (v1):\n12 weeks = 84 LEDs (12x7)\nlights: 5V WS2812B 60/m strip\nFirmware NUM_LEDS = 84"
 		(exclude_from_sim no)
 		(at 177.292 159.258 0)
 		(effects
